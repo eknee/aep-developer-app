@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "1a06bf10-c87b-4f1a-957c-e5d9c2fd06a9",
+		"name": "Adobe I/O Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Generate Access Token",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var json = JSON.parse(responseBody);",
+							"postman.setEnvironmentVariable(\"access_token\", json.access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Cache-Control",
+						"value": "no-cache"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "{{API_KEY}}",
+							"type": "text"
+						},
+						{
+							"key": "technical_account_id",
+							"value": "{{TECHNICAL_ACCOUNT_ID}}",
+							"type": "text"
+						},
+						{
+							"key": "org_id",
+							"value": "{{IMS_ORG}}",
+							"type": "text"
+						},
+						{
+							"key": "client_secret",
+							"value": "{{CLIENT_SECRET}}",
+							"type": "text"
+						},
+						{
+							"key": "private_key",
+							"value": "{{PRIVATE_KEY}}",
+							"type": "text"
+						},
+						{
+							"key": "meta_scopes",
+							"value": "{{META_SCOPE}}",
+							"type": "text"
+						},
+						{
+							"key": "tenant_name",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "sandbox_name",
+							"value": "prod",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/auth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"auth"
+					]
+				},
+				"description": "Generated from a curl request: \ncurl -X POST \\\n  https://adobeioruntime.net/api/v1/web/io-solutions/default/jwt \\\n  -H 'Cache-Control: no-cache' \\\n  -H 'Content-Type: application/x-www-form-urlencoded' \\\n  -d 'client_id=<YOUR_CLIENT_ID>&technical_account_id=<TECHNICAL_ACCOUNT_ID>&org_id=<ORG_ID>&client_secret=<CLIENT_SECRET>&private_key=<CONTENT_OF_PRIVATE_KEY_FILE>&meta_scopes=<COMMA_SEPARATED_META_SCOPES>'"
+			},
+			"response": []
+		}
+	]
+}

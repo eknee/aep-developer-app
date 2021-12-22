@@ -1,5 +1,5 @@
 {
-  "name": "adobe_io_developer_app",
+  "name": "adobe-io-developer-app",
   "version": "1.0.0",
   "description": "Starter node.js package for developers who need to work with Adobe I/O webhooks and APIs.",
   "main": "app.js",

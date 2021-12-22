@@ -1,4 +1,4 @@
-# adobe_io_developer_app
+# adobe-io-developer-app
  
 A simple Node.js app that allows you run a local http server to sign/auth a JWT and respond with access credentials for a specific I/O integration and psql connection params.
 

@@ -47,13 +47,13 @@ You should then see this response in the CLI interface
 
 
 ## Setup Postman
-Import the postman collection from the directory you downloaded the repo in.  You should see the following in postman  
-![Screenshot](postman_collection.png)
+Import the postman collection from the directory you downloaded the repo into (postman/Adobe I-O Auth.postman_collection.json).  You should see the following in postman  
+![Screenshot](images/postman_collection.png)
 
-The request is pre-configured to use use the existing postman environment variables you can download with your integraiton in Adobe I/O  
-![Screenshot](postman_request.png)
+The request is pre-configured to use use the existing postman environment variables you can download with your integration in Adobe I/O  
+![Screenshot](images/postman_request.png)
 
-A successful respone should return the payload shown below which is automatically parsed and appended to your environments ACCESS_TOKEN variable.  You can then reference that in all subsequent calls.
+A successful response should return the payload shown below which is automatically parsed and appended to your environments ACCESS_TOKEN variable.  You can then reference that in all subsequent calls.
 ```
 {
     "token_type": "bearer",

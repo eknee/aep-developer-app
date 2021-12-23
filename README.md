@@ -13,6 +13,6 @@ This is a quick start Node.js app for anyone looking to start playing with the A
 
 
 # Project Wiki(s)
-* [How to download and install the app](https://github.com/eknee/adobe-io-developer-app/wiki/Working-with-the-Adobe-IO-Developer-App)  
+* [Tutorial - How to download and install the app](https://github.com/eknee/adobe-io-developer-app/wiki/Tutorial-%7C-How-to-download-and-install-the-app)  
 * [How to use Postman with the app]()  
 * [How to use Adobe I/O Events with the app]()  

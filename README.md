@@ -1,17 +1,20 @@
 # adobe-io-developer-app
  
-A simple Node.js app that allows you run a local http server to sign/auth a JWT and respond with access credentials for a specific I/O integration and psql connection params.
+This is a quick start Node.js app for anyone looking to start playing with the Adobe Experience Platform APIs or Adobe I/O webhooks. It has two methods is supports today:
+
+* GET '/' - receives and responds to challenge request when setting up a webhook in Adobe I/O
+* POST '/auth' - used to locally sign a JWT and request an access token from Adobe IMS
+
+## Dependencies
+* node.js - https://nodejs.org/en/download/
+* Express - https://expressjs.com/en/starter/installing.html
+* @adobe/jwt-auth - https://github.com/adobe/jwt-auth
+* ngrok - https://ngrok.com/download (or other webhook software)
+
 
 ## Installation Instructions
 This instruction list applies for users installing via Ubuntu in WSL
 
-### Dependencies
-* node.js - https://nodejs.org/en/download/
-* Express - https://expressjs.com/en/starter/installing.html
-* @adobe/jwt-auth - https://github.com/adobe/jwt-auth
-
-
-### Step by Step instructions
 1. Download git repo to your desktop and store in a directory  
 ```
 Example:  /mnt/c/users/eknee/apps/adobe_auth/
@@ -39,14 +42,14 @@ npm install express --save
 npm install @adobe/jwt-auth
 ```
 
-## Start your local auth server
+### Start your local auth server
 To start the server simple navigate to the directory where you did the installation and execute the following command:
 ```node auth.js```
 You should then see this response in the CLI interface  
 ```Started server at http://localhost:3000```
 
 
-## Setup Postman
+### Setup Postman
 Import the postman collection from the directory you downloaded the repo into [Adobe I/O Auth Collection](postman/Adobe%20I-O%20Auth.postman_collection.json).  You should see the following in postman  
 ![Screenshot](images/postman_collection.png)
 
@@ -62,5 +65,3 @@ A successful response should return the payload shown below which is automatical
     "psql": "psql 'sslmode=require host=somehostname.platform-query.adobe.io port=80 dbname=prod:all user=someorg@AdobeOrg password=XXXXX'"
 }
 ```
-
-

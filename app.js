@@ -15,7 +15,7 @@ app.get('/', async (req, res) => {
 	const qs = url.parse(req.url,true).query;
 	//console.log( {"querystring": qs} );
 	const challenge = qs.challenge;
-	console.log(challenge);
+	console.log("Challenge response: " + challenge);
 	res.send(challenge)
 });
 

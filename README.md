@@ -47,7 +47,7 @@ You should then see this response in the CLI interface
 
 
 ## Setup Postman
-Import the postman collection from the directory you downloaded the repo into [Adobe I/O Auth Collection](postman/Adobe I-O Auth.postman_collection.json).  You should see the following in postman  
+Import the postman collection from the directory you downloaded the repo into [Adobe I/O Auth Collection](postman/Adobe%20I-O%20Auth.postman_collection.json).  You should see the following in postman  
 ![Screenshot](images/postman_collection.png)
 
 The request is pre-configured to use use the existing postman environment variables you can download with your integration in Adobe I/O  

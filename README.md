@@ -12,7 +12,5 @@ This is a quick start Node.js app for anyone looking to start playing with the A
 * ngrok - https://ngrok.com/download (or other webhook software)
 
 
-# Project Wiki(s)
-* [Tutorial - How to download and install the app](https://github.com/eknee/adobe-io-developer-app/wiki/Tutorial-%7C-How-to-download-and-install-the-app)  
-* [Tutorial - How to use Postman with the app and Adobe I/O]()  
-* [How to use Adobe I/O Events with the app]()  
+# Project Wiki
+https://github.com/eknee/adobe-io-developer-app/wiki/

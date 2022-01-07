@@ -21,7 +21,7 @@ https://github.com/eknee/adobe-io-developer-app/wiki/
 ## Postman Collection - Adobe I/O Auth
 To make authentication calls to any Adobe application you must have an `access token`. An access token can only be created by passing a JWT token that contains the identity of your Adobe I/O project integration ([learn more here](https://www.adobe.io/developer-console/docs/guides/authentication/JWT/)). This API does three things for you as the developer when used with the Adobe I/O Developer App: 
 1) Creates a `JWT` locally on your machine using the Postman Environment variables 
-2) Exchanges the `JWT` with the Adobe Identity Management Service (IMS) along with your Adobe I/O Project `client_id (api_key)` and `client_secret` and responds with an `access token`
+2) Exchanges the `JWT` with the Adobe Identity Management Service (IMS) along with your Adobe I/O Project `client_id (api_key)` and `client_secret` and responds with an `access_token`
 3) _(Optionally)_ will generate a psql statement which you can use to authenticate with the Experience Platform Query Service
 
 <br>

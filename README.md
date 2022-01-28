@@ -12,7 +12,7 @@ This is a quick start Node.js app for anyone looking to start playing with the A
 * ngrok - https://ngrok.com/download (or other webhook software)
 
 ### Project Wiki
-https://github.com/eknee/adobe-io-developer-app/wiki/
+https://github.com/eknee/aep-developer-app/wiki/
 <br>
 <br>
 

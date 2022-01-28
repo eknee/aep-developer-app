@@ -1,4 +1,4 @@
-# Adobe I/O Developer App
+# AEP Developer App
  
 This is a quick start Node.js app for anyone looking to start playing with the Adobe Experience Platform APIs or Adobe I/O webhooks. It has two methods is supports today:
 

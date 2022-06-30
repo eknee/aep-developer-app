@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Adobe Experience Platform Developer App
 ---
 

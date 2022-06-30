@@ -1,4 +1,7 @@
-# Welcome to the aep-developer-app wiki!
+---
+layout: page
+title: Adobe Experience Platform Developer App
+---
 
 ## Wiki Links
 * [Tutorial - How to download and install the app](install.md)  

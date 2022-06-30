@@ -1,6 +1,6 @@
 layout: page
 title: "Adobe Experience Platform Developer App"
-permalink: /index
+permalink: /index/
 
 # Welcome to the aep-developer-app wiki!
 

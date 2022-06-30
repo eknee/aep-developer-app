@@ -1,9 +1,7 @@
-## Overview
+# Tutorial | How to download and install the app
 A simple step-by-step guide for you install the app on your local machine and run it
 
 ***
-
-# Tutorial | How to download and install the app
 
 ## Step-by-Step Guide:
 _This instruction list applies for users installing via linux or WSL_

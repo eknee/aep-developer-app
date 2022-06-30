@@ -1,4 +1,7 @@
-# Tutorial | How to download and install the app
+---
+title: How to download and Install the App
+---
+
 A simple step-by-step guide for you install the app on your local machine and run it
 
 ***

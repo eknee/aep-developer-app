@@ -1,5 +1,5 @@
 ---
-title: How to download and Install the App
+title: Download and Install the App
 ---
 
 A simple step-by-step guide for you install the app on your local machine and run it

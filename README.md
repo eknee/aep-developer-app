@@ -11,8 +11,8 @@ This is a quick start Node.js app for anyone looking to start playing with the A
 * @adobe/jwt-auth - https://github.com/adobe/jwt-auth
 * ngrok - https://ngrok.com/download (or other webhook software)
 
-### Project Wiki
-https://github.com/eknee/aep-developer-app/wiki/
+### Project Site
+https://eknee.github.io/aep-developer-app/
 <br>
 <br>
 

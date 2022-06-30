@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Overview
+A simple step-by-step guide for you install the app on your local machine and run it
 
-You can use the [editor on GitHub](https://github.com/eknee/aep-developer-app/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+***
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Step-by-Step Guide:
+_This instruction list applies for users installing via linux or WSL_
 
-### Markdown
+1. Download the [aep-developer-app](https://github.com/eknee/aep-developer-app.git) repo to your local computer  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   ```
+   git clone https://github.com/eknee/aep-developer-app.git <your-directory>
+   ``` 
 
-```markdown
-Syntax highlighted code block
+1. In order to run the app you must have node.js installed. If you don't please follow the directions below. If you do skip to step 3
 
-# Header 1
-## Header 2
-### Header 3
+   1. Download and install [node.js](https://nodejs.org/en/download/)
+      ```
+      sudo apt-get install nodejs
+      ```
 
-- Bulleted
-- List
+   1. Download and install npm (node package manager)  
+      ```
+      sudo apt-get install npm
+      ```
 
-1. Numbered
-2. List
+1. In the directory you cloned the git repo in run the following command to install the dependencies
 
-**Bold** and _Italic_ and `Code` text
+      ```
+      npm install
+      ```
 
-[Link](url) and ![Image](src)
-```
+1. The app should now be installed on your local machine. You can run it by simply executing the following command:
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+   ```
+   node /<directory>/app.js
+   ```
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/eknee/aep-developer-app/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+   You should then see the following response in your console:
+   `Started server at http://localhost:3000`

@@ -1,4 +1,6 @@
-# How to use Postman with the app and Adobe I/O
+---
+title: Setup Postman with the App and Adobe I/O
+---
 
 In this tutorial you will learn how to leverage the [AEP Developer App](https://github.com/eknee/aep-developer-app) to generate an access token to use with the Adobe application APIs.
 
